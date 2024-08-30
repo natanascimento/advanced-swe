@@ -1,0 +1,2 @@
+download:
+	wget https://synthetichealth.github.io/synthea-sample-data/downloads/synthea_sample_data_fhir_r4_sep2019.zip > ./datalake/raw/synthea_sample_data_fhir_r4.zip && wget https://rnds-fhir.saude.gov.br/Bundle-f69f5d52-3447-4772-85c4-0f1402cb3bbe.json > ./datalake/raw/datasus_sample_fhir.json

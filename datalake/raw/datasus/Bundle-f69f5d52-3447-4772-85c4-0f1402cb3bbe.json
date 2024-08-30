@@ -1,0 +1,219 @@
+{
+  "resourceType": "Bundle",
+  "id": "f69f5d52-3447-4772-85c4-0f1402cb3bbe",
+  "meta": {
+    "lastUpdated": "2021-11-06T16:20:50-03:00"
+  },
+  "identifier": {
+    "system": "https://rnds-fhir.saude.gov.br/NamingSystem/BRRNDS-10302910000182A",
+    "value": "f22f3f3d-5fb3-4a45-aece-699dd467ac1d"
+  },
+  "type": "document",
+  "timestamp": "2021-11-06T16:20:50-03:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:00b3ac7c-4992-4b73-ac96-d2a509989fa3",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "00b3ac7c-4992-4b73-ac96-d2a509989fa3",
+        "meta": {
+          "profile": [
+            "https://rnds-fhir.saude.gov.br/StructureDefinition/BRResultadoExameLaboratorial-3.2.1"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"00b3ac7c-4992-4b73-ac96-d2a509989fa3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition \"00b3ac7c-4992-4b73-ac96-d2a509989fa3\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRResultadoExameLaboratorial-3.2.1.html\">Resultado de Exame Laboratorial</a></p></div><p><b>status</b>: final</p><p><b>type</b>: Resultado de Exame(s) Laboratoriais(s) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRTipoDocumento.html\">Tipo de Documento</a>#REL)</span></p><p><b>date</b>: 2021-11-06 04:20:50-0300</p><p><b>author</b>: <span></span></p><p><b>title</b>: Resultado de Exame Laboratorial</p></div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "https://rnds-fhir.saude.gov.br/CodeSystem/BRTipoDocumento",
+              "code": "REL"
+            }
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "system": "https://rnds-fhir.saude.gov.br/StructureDefinition/BRIndividuo-1.0",
+            "value": "712176901347489"
+          }
+        },
+        "date": "2021-11-06T16:20:50-03:00",
+        "author": [
+          {
+            "identifier": {
+              "system": "https://rnds-fhir.saude.gov.br/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0",
+              "value": "00394544000185"
+            }
+          }
+        ],
+        "title": "Resultado de Exame Laboratorial",
+        "section": [
+          {
+            "entry": [
+              {
+                "reference": "urn:uuid:d924da36-afef-445e-9fcf-2b6c92668745"
+              },
+              {
+                "reference": "urn:uuid:d0ff0c62-7f61-419d-bf8e-e325a92ca12c"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d924da36-afef-445e-9fcf-2b6c92668745",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d924da36-afef-445e-9fcf-2b6c92668745",
+        "meta": {
+          "profile": [
+            "https://rnds-fhir.saude.gov.br/StructureDefinition/BRCondicaoSaude"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"d924da36-afef-445e-9fcf-2b6c92668745\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition \"d924da36-afef-445e-9fcf-2b6c92668745\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRCondicaoSaude.html\">Condição de Saúde</a></p></div><p><b>code</b>: Varíola dos macacos [Monkeypox] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRTerminologiaSuspeitaDiagnostica.html\">Suspeita Diagnóstica</a>#B04)</span></p><p><b>subject</b>: <span></span></p><h3>Stages</h3><table class=\"grid\"><tr><td>-</td><td><b>Assessment</b></td></tr><tr><td>*</td><td><a href=\"#urnuuidd0ff0c62-7f61-419d-bf8e-e325a92ca12c\">See above (urn:uuid:d0ff0c62-7f61-419d-bf8e-e325a92ca12c)</a></td></tr></table></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://rnds-fhir.saude.gov.br/CodeSystem/BRTerminologiaSuspeitaDiagnostica",
+              "code": "B04",
+              "display": "Varíola dos macacos [Monkeypox]"
+            }
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "system": "https://rnds-fhir.saude.gov.br/StructureDefinition/BRIndividuo-1.0",
+            "value": "712176901347489"
+          }
+        },
+        "stage": [
+          {
+            "assessment": [
+              {
+                "reference": "urn:uuid:d0ff0c62-7f61-419d-bf8e-e325a92ca12c"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d0ff0c62-7f61-419d-bf8e-e325a92ca12c",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "https://rnds-fhir.saude.gov.br/StructureDefinition/BRDiagnosticoLaboratorioClinico-3.2.1"
+          ]
+        },
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRDiagnosticoLaboratorioClinico-3.2.1.html\">Diagnóstico em Laboratório Clínico</a></p></div><p><b>BRPatogeno</b>: Orthopoxvirus (nome do gênero do vírus) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRTerminologiaPatogeno.html\">Patógeno</a>#01)</span></p><p><b>status</b>: final</p><p><b>category</b>: Diagnóstico e procedimentos especiais em hemoterapia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRSubgrupoTabelaSUS.html\">Subgrupo da Tabela SUS</a>#0212)</span></p><p><b>code</b>: Orthopoxvirus IgM Ab [Presença] em soro ou plasma por Imunoensaio <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRNomeExameLOINC.html\">Exames LOINC</a>#100892-9)</span></p><p><b>subject</b>: <span></span></p><p><b>effective</b>: 2021-11-06 04:20:50-0300</p><p><b>issued</b>: 6 de nov. de 2021 16:20:50</p><p><b>performer</b>: </p><ul><li><span></span></li><li><span></span></li></ul><p><b>value</b>: Não Reagente <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRTipoResultadoRGNR.html\">Tipo de Reagência</a>#2)</span></p><p><b>method</b>: Diagnóstico através de um hemograma. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>specimen</b>: <a href=\"#urnuuid1763dd4b-d0a3-4e71-854a-0582d5d4b357\">See above (urn:uuid:1763dd4b-d0a3-4e71-854a-0582d5d4b357)</a></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td>-</td><td><b>Text</b></td></tr><tr><td>*</td><td>Escala de -1 para +1.</td></tr></table></div>"
+        },
+        "extension": [
+          {
+            "url": "https://rnds-fhir.saude.gov.br/StructureDefinition/BRPatogeno",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://rnds-fhir.saude.gov.br/CodeSystem/BRTerminologiaPatogeno",
+                  "code": "01"
+                }
+              ]
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://rnds-fhir.saude.gov.br/CodeSystem/BRSubgrupoTabelaSUS",
+                "code": "0212"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://rnds-fhir.saude.gov.br/CodeSystem/BRNomeExameLOINC",
+              "code": "100892-9"
+            }
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "system": "https://rnds-fhir.saude.gov.br/StructureDefinition/BRIndividuo-1.0",
+            "value": "712176901347489"
+          }
+        },
+        "effectiveDateTime": "2021-11-06T16:20:50-03:00",
+        "issued": "2021-11-06T16:20:50-03:00",
+        "performer": [
+          {
+            "identifier": {
+              "system": "https://rnds-fhir.saude.gov.br/StructureDefinition/BREstabelecimentoSaude-1.0",
+              "value": "2005654"
+            }
+          },
+          {
+            "identifier": {
+              "system": "https://rnds-fhir.saude.gov.br/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0",
+              "value": "00394544000185"
+            }
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://rnds-fhir.saude.gov.br/CodeSystem/BRTipoResultadoRGNR",
+              "code": "2"
+            }
+          ]
+        },
+        "method": {
+          "text": "Diagnóstico através de um hemograma."
+        },
+        "specimen": {
+          "reference": "urn:uuid:1763dd4b-d0a3-4e71-854a-0582d5d4b357"
+        },
+        "referenceRange": [
+          {
+            "text": "Escala de -1 para +1."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1763dd4b-d0a3-4e71-854a-0582d5d4b357",
+      "resource": {
+        "resourceType": "Specimen",
+        "meta": {
+          "profile": [
+            "https://rnds-fhir.saude.gov.br/StructureDefinition/BRAmostraBiologica-1.0"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Specimen</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-BRAmostraBiologica-1.0.html\">Amostra Biológica</a></p></div><p><b>type</b>: Secreção Orofaríngea e Nasofaríngea <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-BRTipoAmostraGAL.html\">Tipo de Amostra Biológica</a>#SECONF)</span></p></div>"
+        },
+        "type": {
+          "coding": [
+            {
+              "system": "https://rnds-fhir.saude.gov.br/CodeSystem/BRTipoAmostraGAL",
+              "code": "SECONF"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
