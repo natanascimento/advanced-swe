@@ -1,4 +1,5 @@
 from os.path import abspath, dirname, join
+from os import environ
 
 
 class AppSettings:
@@ -8,8 +9,15 @@ class AppSettings:
     DATALAKE_PATH = join(ROOT_PATH, "datalake")
 
 
+class MilvusSettings:
+    host: str = environ.get("milvus_host")
+    port: str = environ.get("milvus_port")
+    db: str = environ.get("milvus_db")
+
+
 class Settings:
     app: AppSettings = AppSettings()
+    milvus: MilvusSettings = MilvusSettings()
 
 
 settings = Settings()
