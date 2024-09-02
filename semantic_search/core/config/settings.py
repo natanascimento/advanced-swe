@@ -8,7 +8,7 @@ class AppSettings:
     SRC_PATH = dirname(dirname(dirname(abspath(__file__))))
     DATALAKE_PATH = join(ROOT_PATH, "datalake")
 
-
+    
 class MilvusSettings:
     host: str = environ.get("milvus_host")
     port: str = environ.get("milvus_port")
